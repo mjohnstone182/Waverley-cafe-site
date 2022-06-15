@@ -1,0 +1,52 @@
+body {
+background-color: #32322C;
+color: rgb(255, 255, 255);
+text-shadow: 1px 1px 2px black;
+}
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+    }
+
+.cafe-logo {
+    font-family: 'Lobster Two', cursive;
+    font-size: 55px;
+}
+.top-nav {
+    background-color: #617641;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.menu-bar {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    word-spacing: 20px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #171D1C;
+}
+
+.cafe-top-left {
+    max-width: 400px;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+.welcome-intro {
+  display: flex;
+    position: relative;
+    justify-content: space-between;  
+}
