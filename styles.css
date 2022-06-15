@@ -67,3 +67,32 @@ p {
     line-height: 1.5;
 
 }
+.section-two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+
+
+
+}
+.opening-hours {
+    max-width: 400px;
+    text-align: center;
+    font-size: 30px; 
+    background-color: #617641;
+    padding: 40px;
+
+}
+h5 {
+    font-size: 30px;
+    padding-bottom: 28px;
+}
+ul {
+ list-style: none; 
+line-height: 1.5;
+word-spacing: 10px;
+}
+.cafe-lattes {
+    max-width: 450px;
+}
