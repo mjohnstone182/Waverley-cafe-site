@@ -40,13 +40,30 @@ a:hover {
 
 .cafe-top-left {
     max-width: 400px;
-    padding-top: 20px;
-    padding-left: 40px;
 
 }
 
-.welcome-intro {
-  display: flex;
-    position: relative;
-    justify-content: space-between;  
+.intro {
+    margin-top: 15px;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+h3 {
+    padding-top: 30px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+h4 {
+    font-size: 30px; 
+    padding-bottom: 28px;
+}
+p {
+    max-width: 650px;
+    font-size: 25px;
+    line-height: 1.5;
+
 }
