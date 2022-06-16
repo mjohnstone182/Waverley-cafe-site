@@ -1,7 +1,10 @@
 body {
-background-color: #32322C;
+background-color: #181f1b;
 color: rgb(255, 255, 255);
-text-shadow: 1px 1px 2px black;
+text-shadow: 2px 1px 2px #181f1b;
+text-align: center;
+line-height: 1.5;
+font-family: 'Laila', sans-serif;
 }
 * {
         margin: 0;
@@ -16,7 +19,7 @@ text-shadow: 1px 1px 2px black;
     font-size: 55px;
 }
 .top-nav {
-    background-color: #617641;
+    background-color: #4B9563;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -26,17 +29,23 @@ text-shadow: 1px 1px 2px black;
 }
 
 .menu-bar {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 35px;
-    word-spacing: 20px;
+    margin: 0;
+    font-size: 28px;
 }
-a:link {
+a:link, a:visited {
     color: white;
     text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    text-shadow: 3px 3px 3px #181f1b;
+
+
 }
 a:hover {
-    color: #171D1C;
+    color: white;
+    background-color: #629262;
+    font-size: 29px;
 }
+
 
 .cafe-top-left {
     max-width: 400px;
@@ -49,7 +58,6 @@ a:hover {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
 
 }
 h3 {
@@ -63,8 +71,8 @@ h4 {
 }
 p {
     max-width: 650px;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 27px;
+
 
 }
 .section-two {
@@ -72,27 +80,54 @@ p {
     justify-content: space-around;
     padding-top: 40px;
 
-
-
-
 }
-.opening-hours {
-    max-width: 400px;
-    text-align: center;
+.opening-hours, .contact-details {
+    max-width: 500px;
     font-size: 30px; 
-    background-color: #617641;
+    background-color: #32533D;
     padding: 40px;
 
 }
 h5 {
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 28px;
 }
-ul {
- list-style: none; 
+li {
+list-style: none; 
 line-height: 1.5;
 word-spacing: 10px;
 }
 .cafe-lattes {
     max-width: 450px;
+}
+.iced-lattes, .breakfast-plate {
+    max-width: 300px;
+    max-height: 300px;
+
+}
+.breakfast-plate {
+    padding-right: 35px;
+    padding-left: 100px;
+}
+
+.section-three {
+    display: flex;
+    padding: 60px;
+
+}
+.food-menu {
+    margin-left: 100px;
+    margin-top: 65px;
+    background-color: #32533D;
+    padding: 40px;
+
+}
+.contact-details {
+    margin: 0 auto;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+
 }
