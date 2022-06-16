@@ -18,6 +18,12 @@ font-family: 'Laila', sans-serif;
     font-family: 'Lobster Two', cursive;
     font-size: 55px;
 }
+
+.opening-hours, .contact-details, .food-menu, .gallery {
+    background-color: #32533D;  
+    
+}
+
 .top-nav {
     background-color: #4B9563;
     overflow: hidden;
@@ -84,7 +90,7 @@ p {
 .opening-hours, .contact-details {
     max-width: 500px;
     font-size: 30px; 
-    background-color: #32533D;
+
     padding: 40px;
 
 }
@@ -118,7 +124,6 @@ word-spacing: 10px;
 .food-menu {
     margin-left: 100px;
     margin-top: 65px;
-    background-color: #32533D;
     padding: 40px;
 
 }
@@ -129,5 +134,11 @@ word-spacing: 10px;
 .gallery-images {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 
+}
+.gallery, .social-media {
+    margin: 65px;
+    font-size: 30px; 
+    padding-top: 20px;
 }
